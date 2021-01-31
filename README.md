@@ -55,7 +55,7 @@ short description of what a t-test is and the premise of this analysis
 
 ![ttest_lot3](https://user-images.githubusercontent.com/71397190/106395912-6e4cc280-63ca-11eb-9864-10f02a21ce5f.PNG)
 
-## Study Design: MechaCar cs Competition
+## Study Design: MechaCar vs Competition
 ### Description
 - What metric or metrics are you going to test?
 - What is the null hypothesis or alternative hypothesis?
