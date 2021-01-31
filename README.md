@@ -16,3 +16,10 @@
 ### T-Test for Lot 1
 ### T-Test for Lot 2
 ### T-Test for Lot 3
+
+## Study Design: MechaCar cs Competition
+### Description
+- What metric or metrics are you going to test?
+- What is the null hypothesis or alternative hypothesis?
+- What statistical test would you use to test the hypothesis? And why?
+- What data is needed to run the statistical test?
