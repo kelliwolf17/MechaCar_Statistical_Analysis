@@ -82,10 +82,13 @@ The t-Test p-value for Lot 1 and Lot 2 are  less than the significance level, wh
 More analysis will need to be done in order to determine other factors that make the MechaCar stand out against its competitors. Personally, safety rating is a key factor that helps determine whether or not I will buy a certain car model.
 
 - What is the null hypothesis or alternative hypothesis?
+
 The null hypothesis would be that there is no statistical difference in the safety rating between MechaCar and the competition. The alternative hypothesis would be that there is a statistical difference in safety rating between MechaCar and the competition.
 
 - What statistical test would you use to test the hypothesis? And why?
+
 We could perform a one-sample t-Test to determine if the null or alternative hypotheses are correct.
 
 - What data is needed to run the statistical test?
+
 Data from both MechaCar and its competitors would be complied in order to run the analysis (similar to that of the suspension coil data). Then the p-values for each would be compared to the significance level to determine if the data is significantly different from normal distribution. This would tell us if MechaCar's safety rating is similar to the competition or not.
