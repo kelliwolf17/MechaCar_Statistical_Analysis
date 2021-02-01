@@ -76,8 +76,9 @@ p-value (0.005911) < 0.05
 p-value (0.16) > 0.05
 
 ## Study Design: MechaCar vs Competition
-### Description
-- What metric or metrics are you going to test?
+More analysis will need to be done in order to determine other factors that make the MechaCar stand out against its competitors. Personally, safety rating is a key factor that helps determine whether or not I will buy a certain car model.
+
+The null hypothesis:
 - What is the null hypothesis or alternative hypothesis?
 - What statistical test would you use to test the hypothesis? And why?
 - What data is needed to run the statistical test?
