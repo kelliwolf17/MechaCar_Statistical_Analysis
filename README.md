@@ -43,43 +43,49 @@ Lot Summary:
 
 - For Lot 1 and Lot 2, the variance does not exceed 100 PSI. For Lot 3, the variance does exceed 100 PSI. Therefore, Lot 3 does not meet the design criteria for suspension coils even though Lot 1 and Lot 2 do.
 
-## T-Tests on Suspension Coils
-A one-sample t-test determines if there is a statistical difference between the mean of the sample distribution and the mean of the population distribution. It tests the hypothesis:
+## t-Tests on Suspension Coils
+A one-sample t-Test determines if there is a statistical difference between the mean of the sample distribution and the mean of the population distribution. It tests the hypothesis:
 Ho - there is no statistical difference
 Ha - there is a statistical difference
 
 The population mean for this analysis is 1,500 PSI. We are still assuming a significance level of 0.05%.
 
 
-### T-Test across all manufacturing lots
+### t-Test across all manufacturing lots
 
 ![ttest](https://user-images.githubusercontent.com/71397190/106395909-6db42c00-63ca-11eb-8b12-ca4bf1697394.PNG)
 
  p-value (1) > 0.05
 
-### T-Test for Lot 1
+### t-Test for Lot 1
 
 ![ttest_lot1](https://user-images.githubusercontent.com/71397190/106395910-6db42c00-63ca-11eb-8ed5-8b40c9610328.PNG)
 
 p-value (1.568e-11) < 0.05
 
-### T-Test for Lot 2
+### t-Test for Lot 2
 
 ![ttest_lot2](https://user-images.githubusercontent.com/71397190/106395911-6e4cc280-63ca-11eb-9d3d-f478fdcaa964.PNG)
 
 p-value (0.005911) < 0.05
 
-### T-Test for Lot 3
+### t-Test for Lot 3
 
 ![ttest_lot3](https://user-images.githubusercontent.com/71397190/106395912-6e4cc280-63ca-11eb-9864-10f02a21ce5f.PNG)
 
 p-value (0.16) > 0.05
 
+The t-Test p-value for all manufacturing lots and for Lot 3 are greater than the significance level, which means that the data does not vary much from normal distribution.
+The t-Test p-value for Lot 1 and Lot 2 are  less than the significance level, which means that the data does vary from normal distribution and therefore will need to be analyzed further to determine why the data is skewed.
+
 ## Study Design: MechaCar vs Competition
 More analysis will need to be done in order to determine other factors that make the MechaCar stand out against its competitors. Personally, safety rating is a key factor that helps determine whether or not I will buy a certain car model.
 
-The null hypothesis:
 - What is the null hypothesis or alternative hypothesis?
-- What statistical test would you use to test the hypothesis? And why?
-- What data is needed to run the statistical test?
+The null hypothesis would be that there is no statistical difference in the safety rating between MechaCar and the competition. The alternative hypothesis would be that there is a statistical difference in safety rating between MechaCar and the competition.
 
+- What statistical test would you use to test the hypothesis? And why?
+We could perform a one-sample t-Test to determine if the null or alternative hypotheses are correct.
+
+- What data is needed to run the statistical test?
+Data from both MechaCar and its competitors would be complied in order to run the analysis (similar to that of the suspension coil data). Then the p-values for each would be compared to the significance level to determine if the data is significantly different from normal distribution. This would tell us if MechaCar's safety rating is similar to the competition or not.
