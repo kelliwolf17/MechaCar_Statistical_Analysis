@@ -44,23 +44,36 @@ Lot Summary:
 - For Lot 1 and Lot 2, the variance does not exceed 100 PSI. For Lot 3, the variance does exceed 100 PSI. Therefore, Lot 3 does not meet the design criteria for suspension coils even though Lot 1 and Lot 2 do.
 
 ## T-Tests on Suspension Coils
-short description of what a t-test is and the premise of this analysis
+A one-sample t-test determines if there is a statistical difference between the mean of the sample distribution and the mean of the population distribution. It tests the hypothesis:
+Ho - there is no statistical difference
+Ha - there is a statistical difference
+
+The population mean for this analysis is 1,500 PSI. We are still assuming a significance level of 0.05%.
+
 
 ### T-Test across all manufacturing lots
 
 ![ttest](https://user-images.githubusercontent.com/71397190/106395909-6db42c00-63ca-11eb-8b12-ca4bf1697394.PNG)
 
+ p-value (1) > 0.05
+
 ### T-Test for Lot 1
 
 ![ttest_lot1](https://user-images.githubusercontent.com/71397190/106395910-6db42c00-63ca-11eb-8ed5-8b40c9610328.PNG)
+
+p-value (1.568e-11) < 0.05
 
 ### T-Test for Lot 2
 
 ![ttest_lot2](https://user-images.githubusercontent.com/71397190/106395911-6e4cc280-63ca-11eb-9d3d-f478fdcaa964.PNG)
 
+p-value (0.005911) < 0.05
+
 ### T-Test for Lot 3
 
 ![ttest_lot3](https://user-images.githubusercontent.com/71397190/106395912-6e4cc280-63ca-11eb-9864-10f02a21ce5f.PNG)
+
+p-value (0.16) > 0.05
 
 ## Study Design: MechaCar vs Competition
 ### Description
