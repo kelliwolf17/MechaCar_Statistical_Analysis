@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 # Overview
-AutosRUS have a prototype for a new vehicle called the MechaCar. The MechaCar is suffering from some production trobules and the management requested that the production data be evaluted to find any insights as to why this is occuring. 
+AutosRUS have a prototype for a new vehicle called the MechaCar. The MechaCar is suffering from some production trobules and the management requested that the production data be evaluted to find any insights as to why this is occuring. The first 5 rows of each data file seen below:
 
 MechaCar:
 
