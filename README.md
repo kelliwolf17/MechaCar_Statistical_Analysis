@@ -13,7 +13,7 @@ Suspension:
 
 # Results
 ## Linear Regresson to Predict MPG
-Using the MechaCar_mpg.csv file, a multiple linear regression model was performed to predict the mpg of the MechaCar prototypes. Linear regressions are a statistical model used to predict a continuous dependent variable on one or more independent variables fitted to the equation of a line. The metrics involved in this dataset are each independent variables and therefore a multiple linear regression must be used.
+Using the MechaCar_mpg.csv file, a multiple linear regression model was performed to predict the mpg of the MechaCar prototypes. The metrics involved in this dataset are each independent variables and therefore a multiple linear regression must be used.
 A statisitcal summary was also performed to determine which variables provide a significant contribution to the linear regression. This summary outputs a p-value for each variable, which tells us the probability that those variables contribute a random amount of variance to the model or not.
 
 Linear Regression:
@@ -29,15 +29,19 @@ Statisitcal Summary:
 - The r-squared value from this model is 0.7149 which tells us that nearly 72% of all mpg predictions will be correct using this model. Because the intercept was found to be a significant variable, we know that there are other variables that also contribute to the variation in mpg. Therefore, the current model may not predict mpg effectively and other variables of an extended dataset should be evaluated.
 
 ## Summary Statistics on Suspension Coils
+Using the Suspension_Coil.csv file, summary statistics were generated for the whole dataset and for each lot.
+
 Total Summary:
 
 ![total_summary](https://user-images.githubusercontent.com/71397190/106395908-6db42c00-63ca-11eb-833a-697219547da2.PNG)
+
+- For the whole dataset, the variance does not exceed 100 PSI. Overall the manufacturing data meets the design specification for suspension coils.
 
 Lot Summary:
 
 ![lot_summary](https://user-images.githubusercontent.com/71397190/106395904-6d1b9580-63ca-11eb-86cb-6dc934b51b5c.PNG)
 
-- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+- For Lot 1 and Lot 2, the variance does not exceed 100 PSI. For Lot 3, the variance does exceed 100 PSI. Therefore, Lot 3 does not meet the design criteria for suspension coils even though Lot 1 and Lot 2 do.
 
 ## T-Tests on Suspension Coils
 short description of what a t-test is and the premise of this analysis
